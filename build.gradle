@@ -10,5 +10,6 @@ repositories {
 }
 
 dependencies {
+    compile('org.springframework:spring-webmvc:5.0.9.RELEASE')
     testCompile('org.junit.jupiter:junit-jupiter-api:5.3.1')
 }
