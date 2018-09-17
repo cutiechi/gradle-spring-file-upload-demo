@@ -2,6 +2,10 @@ plugins {
     id 'war'
 }
 
+ext {
+    springVersion = '5.0.9.RELEASE'
+}
+
 group 'com.cutiechi.demo'
 version '1.0-SNAPSHOT'
 
@@ -10,6 +14,6 @@ repositories {
 }
 
 dependencies {
-    compile('org.springframework:spring-webmvc:5.0.9.RELEASE')
+    compile("org.springframework:spring-webmvc:${springVersion}")
     testCompile('org.junit.jupiter:junit-jupiter-api:5.3.1')
 }
