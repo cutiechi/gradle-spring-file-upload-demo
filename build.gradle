@@ -4,6 +4,7 @@ plugins {
 
 ext {
     springVersion = '5.0.9.RELEASE'
+    jacksonVersion = '2.9.6'
 }
 
 group 'com.cutiechi.demo'
